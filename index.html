@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/23e841a1d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="assests/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Devloper</p>
+          <h1>Hi, My Name is <br /><span>Prateek Srivastava</span></h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assests/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Highly motivated and dedicated Full Stack Web Developer with a
+              solid foundation in frontend and backend technologies. Recent
+              Bachelor's of technology graduate in Computer science seeking an
+              entry-level position to kickstart a successful career in web
+              development. Possesses a strong passion for coding and creating
+              intuitive user experiences. Eager to apply knowledge, learn new
+              technologies, and contribute to the development of cutting-edge
+              web applications. A fast learner with excellent problem-solving
+              and collaboration skills, ready to make a positive impact on a
+              dynamic team.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Eduction</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JAVASCRIPT</span></li>
+                <li><span>REACT</span></li>
+                <li><span>NODE.JS</span></li>
+                <li><span>MONGO.DB</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span
+                    >Project1:- Build a weather Application,Spotify clone and
+                    blog Temlete</span
+                  ><br />using HTML,CSS and Javascript.Utilized an API to fetch
+                  weather data displayed it in a user-friendly
+                  interface.technologies
+                </li>
+                <li>
+                  Project2:- Designed and developed a Password Manager, Personal
+                  portfolio and GPT-3 UI&UX<span></span><br />to deliver a
+                  seamless user experience. This project showcases end-to-end
+                  web development expertise, encompassing data management,
+                  server-side logic, and a dynamic front-end interface.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019-2023</span> BTECH<br />GL BAJAJ INSTITUTE OF
+                  TECHNOLOGY AND MANEGMENT
+                </li>
+                <li><span>2018-1019</span>12TH<br />GSSIC DAULTABAD</li>
+                <li>
+                  <span>2016-2017</span>10TH<br />S S A S H S S S MAINUDDINPUR
+                  BG
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI|UX Design</h2>
+            <p>
+              UI design focuses on the visual elements of a digital product. It
+              encompasses the design of the user interface, including layouts,
+              color schemes, typography, icons, buttons, and any other visual
+              elements that users interact with.<br />Effective UI/UX design is
+              critical because it directly impacts a product's success. A
+              well-designed user interface can attract users, while a positive
+              user experience keeps them engaged and fosters brand loyalty.
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Frontend Devloper</h2>
+            <p>
+              As a front-end developer, my primary focus is on the client-side
+              of web development. You work on the parts of a website or web
+              application that users see and interact with directly. proficient
+              in a range of web technologies, including HTML, CSS, and
+              JavaScript. These are the foundational languages for building and
+              styling web pages. I insure that websites are responsive and look
+              and function well on various devices and screen sizes, including
+              desktops, tablets, and mobile phones. My expertise includes making
+              web applications compatible with different web browsers, such as
+              Chrome, Firefox, Safari, and Internet Explorer. I may work with
+              front-end frameworks and libraries, such as React, Angular, or
+              Vue.js, to build complex and interactive user interfaces. i was
+              responsible for creating the user interface, including designing
+              and implementing layouts, navigation menus, forms, and interactive
+              elements.
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Backend Devloper</h2>
+            <p>
+              Collaborated with the development team to create and maintain
+              responsive web applications. Assisted in the development of
+              front-end components and worked closely with backend developers to
+              ensure a seamless user experience. Familiarity with JAVA and REST
+              API development for data integratiom
+            </p>
+            <a href="#"> Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assests/work-1.png" />
+            <div class="layer">
+              <h3>Weather app ,Spotify Clone and Blog Template</h3>
+              <p>
+                Build an app that fetches weather data from a public API and
+                displays it in a user-friendly interface. <br />Create a
+                Stunning Spotify Clone Project with HTML and CSS and
+                JAVASCRIPT<br />Develop a website that displays articles, blog
+                posts, or news stories with a clean and organized layout.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assests/work-2.png" />
+            <div class="layer">
+              <h3>Quiz app and CHAT GPT-3 UI|UX</h3>
+              <p>
+                Build an app that fetches quiz data from a public API and
+                displays it in a user-friendly interface.<br />
+                Create a stunning Chatgpt-3 app UI|UX with the help of React
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assests/work-3.png" />
+            <div class="layer">
+              <h3>Personal-Portfolio App</h3>
+              <p>
+                Create a Application that Showcase your skills and projects by
+                creating a personal portfolio website with your resume and
+                project descriptions.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>srivastavaprateek620@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9519170975</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjk3NjI5OTkyLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/dashboard"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="assests/Prateek's Resume (1).pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright@ All Right Reserved</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzbWE-K_jsrMdTv7EollOLPFhPUCMFt87aXn_VdFgD-XuY7fvrFBQBG-utoNaPn3krEhQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
